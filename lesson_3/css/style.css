@@ -1,0 +1,42 @@
+#start {
+  color: #00FFCC;
+}
+
+div.text {
+  color: #008B8B;
+}
+
+.main .theses {
+  color: #F08080;
+}
+
+.images > p {
+  color: #FFD700;
+}
+
+.images > p + p {
+  color: #008000;
+}
+.images p > mark {
+  color: #DB7093;
+}
+
+.title {
+  color: #FF0000;
+}
+
+.list {
+  color: #4169E1;
+}
+
+.list.link {
+  color: #808080;
+}
+
+.footer {
+  color: #DAA520;
+}
+
+[class*="__text"] {
+  color: #0000FF;
+}
