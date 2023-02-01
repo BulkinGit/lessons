@@ -1,0 +1,80 @@
+@import url("reset.css");
+
+@import url(https://fonts.googleapis.com/css?family=Itim:regular&display=swap);
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('../fonts/CircularStd-BoldItalic.woff2') format('woff2'),
+        url('../fonts/CircularStd-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('../fonts/CircularStd-MediumItalic.woff2') format('woff2'),
+        url('../fonts/CircularStd-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+body {
+
+  font-family: "Rubik", "Arial", sans-serif;
+  font-weight: 300;
+  color: #31352B;
+  line-height: 1.2;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  text-indent: 14px;
+}
+
+  ul {
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 3px;
+  text-align: left;
+  text-indent: 14px;
+}
+
+.header p + p {
+  font-family: "Itim", sans-serif;
+  font-size: 18px;
+  text-decoration: line-through;
+}
+
+.title {
+  font-size: 24px;
+  line-height: 2;
+  text-transform: uppercase;
+  word-spacing: 10px;
+  letter-spacing: 10px;
+  font-weight: 700;
+  color: #4c4c4e;
+  text-shadow: 2px 2px 4px #c2c2c2;
+}
+
+.main h3 {
+  font-size: 20px;
+  text-decoration: underline;
+  color: rgba(76, 76, 78, 0.6);
+}
+
+.footer {
+  text-decoration: underline;
+}
+
+.footer a {
+  font-family: "Circular Std";
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff6838;
+  text-shadow: 2px 2px 4px rgba(255, 104, 56, 0.6);
+}

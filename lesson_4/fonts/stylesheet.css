@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Circular Std';
+    src: url('CircularStd-BoldItalic.woff2') format('woff2'),
+        url('CircularStd-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circular Std';
+    src: url('CircularStd-MediumItalic.woff2') format('woff2'),
+        url('CircularStd-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
