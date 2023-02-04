@@ -34,10 +34,12 @@ li > img {
 }
 
 .title {
+  max-width: 605px;
   margin-bottom: 40px;
   font-size: 25px;
   font-weight: 700;
   line-height: 1.6; /* 40/25 */
+  text-align: left;
   color: #212529;
 }
 
