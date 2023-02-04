@@ -1,0 +1,110 @@
+@import url("reset.css");
+
+body {
+  font-family: "Poppins", "Arial", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  color: #6C757D;
+  line-height: 1.8; /* 25/14 */
+}
+
+li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+li > img {
+  width: 100%;
+}
+
+.main {
+  max-width: 1260px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.main-content {
+  max-width: 816px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.main-content p {
+  margin-bottom: 40px;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.6; /* 40/25 */
+  color: #212529;
+}
+
+.picture-content {
+  width: 100%;
+}
+
+.main-pictures {
+  font-size: 0;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.main-pictures li + li {
+  margin-right: 0;
+}
+
+
+
+
+/* пропрацювання роботи з уроку */
+
+.container {
+  padding: 20px;
+  
+}
+
+h2 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.container-block {
+  outline: 2px solid #808080;
+  padding: 10px
+}
+
+.block {
+  padding: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.block-text {
+  display: inline-block;
+  padding: 50px;
+  margin: 0 50px;
+}
+
+.block-img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.wrap-link {
+  text-align: center;
+  font-size: 0;
+}
+
+.block-link {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  padding: 20px 50px;
+  font-size: 16px;
+  background-color: #6C757D;
+  color: aliceblue;
+}
