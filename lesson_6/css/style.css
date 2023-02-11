@@ -89,3 +89,53 @@ body {
 .content-text .retreat {
   margin-bottom: 100px;
 }
+
+/* lesson_practic */
+
+
+.article-practice {
+  outline: 2px solid #808080;
+}
+.content-practic {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px 10px;
+}
+.content-practic p {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.border-solid {
+  border: 5px solid #663399;
+}
+.border-dashed {
+  border: 5px dashed #663399;
+}
+.border-dotted {
+  border: 5px dotted #663399;
+  margin-bottom: 0;
+}
+.image-practic {
+  padding: 30px 10px;
+  text-align: center;
+}
+.image-practic li {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+}
+.img-angle {
+  border-radius: 20%;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.image-practic img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 5px 5px 5px 0 rgba(109, 118, 126, 0.8);
+}
