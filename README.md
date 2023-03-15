@@ -9,3 +9,4 @@ https://bulkingit.github.io/lessons/lesson_7/
 https://bulkingit.github.io/lessons/lesson_8/
 https://bulkingit.github.io/lessons/lesson_9/
 https://bulkingit.github.io/lessons/lesson_10/
+https://bulkingit.github.io/lessons/lesson_11/
