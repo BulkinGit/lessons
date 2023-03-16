@@ -5,6 +5,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6; /* 25/14 */
+  background: #E5E5E5;
   color: #212B36;
 }
 
@@ -20,6 +21,10 @@ body {
   margin: 0 auto;
 
   /* outline: 2px solid grey; */
+}
+
+.header {
+  background-color: #FFFFFF;
 }
 
 .header__inner {
@@ -48,9 +53,10 @@ body {
   cursor: pointer;
 }
 
-.header__dropdown:hover .dropdown__sub-menu {
+.header__dropdown:hover .dropdown__box {
   opacity: 1;
   visibility: visible;
+  pointer-events: all;
 }
 
 .dropdown__link::after,
@@ -67,24 +73,42 @@ body {
 
 /* ------------dropdown__sub-menu sub-menu -----------*/
 
-.dropdown__sub-menu {
+.dropdown__box {
   position: absolute;
   min-width: 180px;
-  top: 300%;
+  padding-top: 45px;
+  top: 100%;
   left: 0;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+.dropdown__sub-menu {
+  position: relative;
   padding: 22px 14px;
   font-weight: 500;
   background-color: #FFFFFF;
   color: #637381;
   border: 0.5px solid #E7E7E7;
   border-radius: 5px;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.3s;
+
 }
 
 .sub-menu__item:not(:last-child) {
   margin-bottom: 13px;
+}
+
+.dropdown__sub-menu::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 10px;
+  top: -10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../images/icons/Polygon.svg);
 }
 
 .sub-menu__link:hover {
