@@ -23,8 +23,13 @@ body {
   /* outline: 2px solid grey; */
 }
 
-.header {
+.wrapper__header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
   background-color: #FFFFFF;
+  z-index: 10;
 }
 
 .header__inner {
