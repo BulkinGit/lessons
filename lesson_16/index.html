@@ -141,9 +141,12 @@
                   <label class="checkout__label-item checkout__label-item--required" for="address-chek">Address</label>
                 </li>
                 <li class="checkout__item-box">
-                  <input class="checkout__input-item" type="text" required name="country-chek" id="country-chek"
-                    placeholder=" ">
-                  <label class="checkout__label-item checkout__label-item--required" for="country-chek">Country</label>
+                  <select class="checkout__input-item checkout__input-item--select" type="text" required
+                    name="country-chek" id="country-chek">
+                    <option value="1">Country *</option>
+                    <option value="2">Ukraine</option>
+                    <option value="3">Poland</option>
+                  </select>
                 </li>
                 <li class="checkout__item-box">
                   <input class="checkout__input-item" type="text" required name="zip-1" id="zip-1" placeholder=" ">
