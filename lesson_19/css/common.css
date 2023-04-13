@@ -1,0 +1,23 @@
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.12; /* 45/40 */
+  /* text-align: center; */
+  text-transform: capitalize;
+  color: #212B36;
+}
+
+.title-cart {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.25; /* 35/28 */
+  color: #212B36;
+}
+
+
+.main__section {
+  outline: 2px solid gray;
+}
+.product__container {
+  outline: 2px solid green;
+}
