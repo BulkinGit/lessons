@@ -1,8 +1,70 @@
+.header__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 50px;
+}
+
+
+.header__nav {
+  display: flex;
+}
+
+
+.header__item {
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s;
+}
+.header__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.header__link {
+  position: relative;
+}
+
+.header__link::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  bottom: -5px;
+  height: 2px;
+  width: 0;
+  background-color: #DDBEA9;
+  border-radius: 2px;
+  transition: width 0.3s, left 0.3s;
+}
+
+.header__link.active::before {
+  left: 0;
+  width: 100%;
+}
+
+.header__item:hover .header__link::before {
+  left: 0;
+  width: 100%;
+}
+
+
+
+
+.main__section {
+  text-align: center;
+}
+
+.main__section--padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.main__section--margin {
+  margin-bottom: 50px;
+}
+
 .title {
   font-weight: 700;
   font-size: 40px;
   line-height: 1.12; /* 45/40 */
-  /* text-align: center; */
   text-transform: capitalize;
   color: #212B36;
 }
@@ -14,10 +76,74 @@
   color: #212B36;
 }
 
-
-.main__section {
-  outline: 2px solid gray;
+.text {
+  font-weight: 500;
 }
-.product__container {
-  outline: 2px solid green;
+
+.text--opstions {
+  max-width: 510px;
+  margin: 0 auto;
+}
+
+.text--opstions:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.price::before {
+  content: "$";
+}
+
+.price.price--fount::before {
+  content: "£";
+}
+
+/* =====================collections===================== */
+
+
+.cart-gap {
+  display: grid;
+  grid-gap: 15px;
+}
+
+[class*="__orientation"] {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #3056D3;
+}
+
+
+@media (min-width: 768px) {
+
+  .main__section--padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .main__section--margin {
+    margin-bottom: 80px;
+  }
+
+  .text--opstions:not(:last-child) {
+    margin-bottom: 70px;
+  }
+
+  .cart-gap {
+    grid-gap: 30px;
+  }
+}
+
+
+@media (min-width: 992px) {
+
+  .main__section--padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .main__section--margin {
+    margin-bottom: 120px;
+  }
 }

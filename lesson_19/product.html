@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Inter:300,regular,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>tailgrids</title>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header class="wrapper__header header">
+      <div class="header__container">
+        <nav class="header__inner">
+          <a class="header__logo logo" href="#">
+            <img class="logo__image" src="images/content/logo-gollect.png" alt="logo">
+          </a>
+
+          <ul class="header__nav">
+            <li class="header__item">
+              <a class="header__link" href="index.html">page 1</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link active" href="#">page 2</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="collection.html">page 3</a>
+            </li>
+          </ul>
+
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="main__section product">
+        <h1 class="sr-only">tailgrids</h1>
+        <div class="product__container picture-product">
+          <ul class="picture-product__items cart-list">
+            <li class="cart-list__item">
+              <a class="cart-list__link" href="#">
+                <div class="cart-list__picture foto">
+                  <img src="images/content/blue-chair.webp" alt="blue-chair">
+                </div>
+                <div class="cart-list__box">
+                  <span class="cart-list__tag">house</span>
+                  <h3 class="cart-list__subtitle">Express Your Beautiful Life Through Furniture</h3>
+                </div>
+              </a>
+            </li>
+            <li class="cart-list__item">
+              <a class="cart-list__link" href="#">
+                <div class="cart-list__picture">
+                  <img src="images/content/clock.webp" alt="clock gadget">
+                </div>
+                <div class="cart-list__box">
+                  <span class="cart-list__tag">accessories</span>
+                  <h3 class="cart-list__subtitle">Discover Our Accessories Collection</h3>
+                </div>
+              </a>
+            </li>
+            <li class="cart-list__item">
+              <a class="cart-list__link" href="#">
+                <div class="cart-list__picture">
+                  <img src="images/content/notebook.webp" alt="heands & macbook">
+                </div>
+                <div class="cart-list__box">
+                  <span class="cart-list__tag">office</span>
+                  <h3 class="cart-list__subtitle">Make Your Workspace More Comfortable</h3>
+                </div>
+              </a>
+
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="main__section main__section--padding novelty">
+        <div class="novelty__container">
+          <h2 class="novelty__title title">Our Latest Products</h2>
+          <div class="novelty__text text text--opstions">
+            <p>
+              There are many variations of passages of Lorem Ipsum available
+              but the majority have suffered alteration in some form.
+            </p>
+          </div>
+          <ul class="novelty__list modern">
+            <li class="modern__item">
+              <article class="modern__cart cart-gadget">
+                <a class="cart-gadget__picture-link" href="">
+                  <img src="images/content/watch.webp" alt="applewatch">
+                </a>
+                <div class="cart-gadget__box-text">
+                  <h3 class="cart-gadget__subtitle">
+                    <a href="#">Apple Watch Series 7</a>
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit enim luctus et lorem.
+                  </p>
+                </div>
+                <form class="cart-gadget__rat rating" action="#">
+                  <div class="rating__box">
+                    <div class="rating__star">
+                      <input class="rating__input" id="watch-5" type="radio" value="5" name="rating-star" checked>
+                      <label class="rating__label" for="watch-5"></label>
+                      <input class="rating__input" id="watch-4" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="watch-4"></label>
+                      <input class="rating__input" id="watch-3" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="watch-3"></label>
+                      <input class="rating__input" id="watch-2" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="watch-2"></label>
+                      <input class="rating__input" id="watch-1" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="watch-1"></label>
+                    </div>
+                  </div>
+                  <div class="rating__review"><span>55</span>Reviews</div>
+                  <span class="rating__price price">299</span>
+                </form>
+              </article>
+            </li>
+            <li class="modern__item">
+              <article class="modern__cart cart-gadget">
+                <a class="cart-gadget__picture-link" href="">
+                  <img src="images/content/mobile.webp" alt="iphone 14">
+                </a>
+                <div class="cart-gadget__box-text">
+                  <h3 class="cart-gadget__subtitle">
+                    <a href="#">iPhone 13 Pro Max</a>
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit enim luctus et lorem.
+                  </p>
+                </div>
+                <form class="cart-gadget__rat rating" action="#">
+                  <div class="rating__box">
+                    <div class="rating__star">
+                      <input class="rating__input" id="phone-5" type="radio" value="5" name="rating-star" checked>
+                      <label class="rating__label" for="phone-5"></label>
+                      <input class="rating__input" id="phone-4" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="phone-4"></label>
+                      <input class="rating__input" id="phone-3" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="phone-3"></label>
+                      <input class="rating__input" id="phone-2" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="phone-2"></label>
+                      <input class="rating__input" id="phone-1" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="phone-1"></label>
+                    </div>
+                  </div>
+                  <div class="rating__review"><span>55</span>Reviews</div>
+                  <span class="rating__price price">999</span>
+                </form>
+              </article>
+            </li>
+            <li class="modern__item">
+              <article class="modern__cart cart-gadget">
+                <a class="cart-gadget__picture-link" href="">
+                  <img src="images/content/macbook.webp" alt="macbook">
+                </a>
+                <div class="cart-gadget__box-text">
+                  <h3 class="cart-gadget__subtitle">
+                    <a href="#">Macbook Pro M1 8/256GB</a>
+                  </h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit enim luctus et lorem.
+                  </p>
+                </div>
+                <form class="cart-gadget__rat rating" action="#">
+                  <div class="rating__box">
+                    <div class="rating__star">
+                      <input class="rating__input" id="note-5" type="radio" value="5" name="rating-star" checked>
+                      <label class="rating__label" for="note-5"></label>
+                      <input class="rating__input" id="note-4" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="note-4"></label>
+                      <input class="rating__input" id="note-3" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="note-3"></label>
+                      <input class="rating__input" id="note-2" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="note-2"></label>
+                      <input class="rating__input" id="note-1" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="note-1"></label>
+                    </div>
+                  </div>
+                  <div class="rating__review"><span>55</span>Reviews</div>
+                  <span class="rating__price price">1299</span>
+                </form>
+              </article>
+            </li>
+          </ul>
+          <ul class="novelty__cursor slider">
+            <li class="slider__item">
+              <button class="slider__btn slider__btn--left"></button>
+            </li>
+            <li class="slider__item">
+              <button class="slider__btn slider__btn--right"></button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="main__section main__section--padding trending">
+        <div class="trending__container">
+          <h2 class="trending__title title">Trending Products</h2>
+          <div class="trending__text text text--opstions">
+            <p>
+              There are many variations of passages of Lorem Ipsum available
+              but the majority have suffered alteration in some form.
+            </p>
+          </div>
+          <ul class="trending__list object">
+            <li class="object__item">
+              <article class="object__cart cart-object">
+                <a class="cart-object__link" href="#">
+                  <img src="images/content/green.webp" alt="">
+                </a>
+                <div class="cart-object__box-text">
+                  <span class="cart-object__price price">59.55</span>
+                  <h3 class="cart-object__title">
+                    <a href="#">Table Top Showpiece</a>
+                  </h3>
+                </div>
+                <form class="cart-object__rat rating" action="#">
+                  <div class="rating__box">
+                    <div class="rating__star">
+                      <input class="rating__input" id="top-5" type="radio" value="5" name="rating-star" checked>
+                      <label class="rating__label" for="top-5"></label>
+                      <input class="rating__input" id="top-4" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="top-4"></label>
+                      <input class="rating__input" id="top-3" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="top-3"></label>
+                      <input class="rating__input" id="top-2" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="top-2"></label>
+                      <input class="rating__input" id="top-1" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="top-1"></label>
+                    </div>
+                  </div>
+                  <div class="rating__review">115 Reviews</div>
+                </form>
+              </article>
+            </li>
+            <li class="object__item">
+              <article class="object__cart cart-object">
+                <a class="cart-object__link" href="#">
+                  <img src="images/content/coffe.webp" alt="coffe latte">
+                </a>
+                <div class="cart-object__box-text">
+                  <span class="cart-object__price price">59.55</span>
+                  <h3 class="cart-object__title">
+                    <a href="#">Table Top Showpiece</a>
+                  </h3>
+                </div>
+                <form class="cart-object__rat rating" action="#">
+                  <div class="rating__box">
+                    <div class="rating__star">
+                      <input class="rating__input" id="coffe-5" type="radio" value="5" name="rating-star" checked>
+                      <label class="rating__label" for="coffe-5"></label>
+                      <input class="rating__input" id="coffe-4" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="coffe-4"></label>
+                      <input class="rating__input" id="coffe-3" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="coffe-3"></label>
+                      <input class="rating__input" id="coffe-2" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="coffe-2"></label>
+                      <input class="rating__input" id="coffe-1" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="coffe-1"></label>
+                    </div>
+                  </div>
+                  <div class="rating__review">115 Reviews</div>
+                </form>
+              </article>
+            </li>
+            <li class="object__item">
+              <article class="object__cart cart-object">
+                <a class="cart-object__link" href="#">
+                  <img src="images/content/cup.webp" alt="white cup">
+                </a>
+                <div class="cart-object__box-text">
+                  <span class="cart-object__price price">59.55</span>
+                  <h3 class="cart-object__title">
+                    <a href="#">Table Top Showpiece</a>
+                  </h3>
+                </div>
+                <form class="cart-object__rat rating" action="#">
+                  <div class="rating__box">
+                    <div class="rating__star">
+                      <input class="rating__input" id="cup-5" type="radio" value="5" name="rating-star" checked>
+                      <label class="rating__label" for="cup-5"></label>
+                      <input class="rating__input" id="cup-4" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="cup-4"></label>
+                      <input class="rating__input" id="cup-3" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="cup-3"></label>
+                      <input class="rating__input" id="cup-2" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="cup-2"></label>
+                      <input class="rating__input" id="cup-1" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="cup-1"></label>
+                    </div>
+                  </div>
+                  <div class="rating__review">115 Reviews</div>
+                </form>
+              </article>
+            </li>
+            <li class="object__item">
+              <article class="object__cart cart-object">
+                <a class="cart-object__link" href="#">
+                  <img src="images/content/lamp.webp" alt="green lamp">
+                </a>
+                <div class="cart-object__box-text">
+                  <span class="cart-object__price price">59.55</span>
+                  <h3 class="cart-object__title">
+                    <a href="#">Table Top Showpiece</a>
+                  </h3>
+                </div>
+                <form class="cart-object__rat rating" action="#">
+                  <div class="rating__box">
+                    <div class="rating__star">
+                      <input class="rating__input" id="lamp-5" type="radio" value="5" name="rating-star" checked>
+                      <label class="rating__label" for="lamp-5"></label>
+                      <input class="rating__input" id="lamp-4" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="lamp-4"></label>
+                      <input class="rating__input" id="lamp-3" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="lamp-3"></label>
+                      <input class="rating__input" id="lamp-2" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="lamp-2"></label>
+                      <input class="rating__input" id="lamp-1" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="lamp-1"></label>
+                    </div>
+                  </div>
+                  <div class="rating__review">115 Reviews</div>
+                </form>
+              </article>
+            </li>
+            <li class="object__item">
+              <article class="object__cart cart-object">
+                <a class="cart-object__link" href="#">
+                  <img src="images/content/rubick.webp" alt="robic">
+                </a>
+                <div class="cart-object__box-text">
+                  <span class="cart-object__price price">59.55</span>
+                  <h3 class="cart-object__title">
+                    <a href="#">Table Top Showpiece</a>
+                  </h3>
+                </div>
+                <form class="cart-object__rat rating" action="#">
+                  <div class="rating__box">
+                    <div class="rating__star">
+                      <input class="rating__input" id="rubik-5" type="radio" value="5" name="rating-star" checked>
+                      <label class="rating__label" for="rubik-5"></label>
+                      <input class="rating__input" id="rubik-4" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="rubik-4"></label>
+                      <input class="rating__input" id="rubik-3" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="rubik-3"></label>
+                      <input class="rating__input" id="rubik-2" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="rubik-2"></label>
+                      <input class="rating__input" id="rubik-1" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="rubik-1"></label>
+                    </div>
+                  </div>
+                  <div class="rating__review">115 Reviews</div>
+                </form>
+              </article>
+            </li>
+            <li class="object__item">
+              <article class="object__cart cart-object">
+                <a class="cart-object__link" href="#">
+                  <img src="images/content/monster.webp" alt="monstera in glas">
+                </a>
+                <div class="cart-object__box-text">
+                  <span class="cart-object__price price">59.55</span>
+                  <h3 class="cart-object__title">
+                    <a href="#">Table Top Showpiece</a>
+                  </h3>
+                </div>
+                <form class="cart-object__rat rating" action="#">
+                  <div class="rating__box">
+                    <div class="rating__star">
+                      <input class="rating__input" id="monster-5" type="radio" value="5" name="rating-star" checked>
+                      <label class="rating__label" for="monster-5"></label>
+                      <input class="rating__input" id="monster-4" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="monster-4"></label>
+                      <input class="rating__input" id="monster-3" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="monster-3"></label>
+                      <input class="rating__input" id="monster-2" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="monster-2"></label>
+                      <input class="rating__input" id="monster-1" type="radio" value="5" name="rating-star">
+                      <label class="rating__label" for="monster-1"></label>
+                    </div>
+                  </div>
+                  <div class="rating__review">115 Reviews</div>
+                </form>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <nav class="footer__inner">
+          <a class="footer__logo logo" href="#">
+            <img class="logo__image" src="images/content/logo-gollect.png" alt="logo">
+          </a>
+        </nav>
+      </div>
+    </footer>
+
+  </div>
+</body>
+
+</html>
