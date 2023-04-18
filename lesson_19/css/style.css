@@ -571,6 +571,15 @@ body {
 
 }
 
+@media (max-width: 567.98px){
+  .header__inner {
+    column-gap: 20px;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
+
+
 
 @media (any-hover:hover) {
   .cart-list__link:hover img,
