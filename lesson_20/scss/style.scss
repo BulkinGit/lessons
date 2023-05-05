@@ -523,6 +523,7 @@ body {
       top: 0;
       left: 0;
       object-fit: cover;
+      transition: transform 0.3s;
 		}
 
 		&__box {
@@ -1389,5 +1390,15 @@ body {
 }
 
 @media (any-hover:hover) {
-  
+
+  .cart-dress {
+
+		&__link {
+
+      &:hover .cart-dress__picture {
+        transform: scale(1.1);
+      }
+		}
+  }
+
 }
