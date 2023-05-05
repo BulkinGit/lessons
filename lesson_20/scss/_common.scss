@@ -1,0 +1,85 @@
+.header,
+.footer {
+		&__inner {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      // padding-top: 35px;
+      // padding-bottom: 35px;
+      background-color: #000;
+		}
+}
+
+
+
+[class*="__container"] {
+  max-width: 1920px;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  // outline: 1px solid lightcoral;
+}
+
+.title {
+  font-size: 18px;
+  line-height: 3.7;
+  text-transform: capitalize;
+}
+
+.acent {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: $acent;
+
+  &::after {
+    content: "119 eur";
+    font-size: 8px;
+    text-decoration: line-through;
+    color: $gray200;
+
+  }
+}
+
+.catalog__item:nth-child(2) .acent {
+
+}
+
+
+@media (min-width: 576px) {
+  .acent {
+    &::after {
+      font-size: 10px;
+
+    }
+  }
+}
+
+@media (min-width: 768px) {
+
+  .title {
+      font-size: 20px;
+      line-height: 3.7;
+    }
+
+  .acent {
+    &::after {
+      font-size: 12px;
+
+    }
+  }
+}
+
+@media (min-width: 992px) {
+
+  .title {
+        font-size: 24px;
+        line-height: 2.8;
+  }
+
+  .acent {
+    &::after {
+      font-size: 14px;
+
+    }
+  }
+}

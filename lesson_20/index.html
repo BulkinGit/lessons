@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:,regular,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,500,600,700&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>crisp</title>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header class="wrapper__header header">
+      <div class="header__container">
+        <nav class="header__inner">
+          <a class="header__logo logo" href="#">
+            <img class="logo__image" src="images/content/logo.webp" alt="logo">
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- <section class="main__section brand">
+        <h1 class="sr-only">crisp</h1>
+        <div class="brand__container choice-brand">
+          <fieldset class="choice-brand__border">
+            <legend class="choice-brand__title-border">chose your brand</legend>
+            <ul class="choice-brand__top top-list">
+              <li class="top-list__item">
+                <a class="top-list__link" href="#">
+                  <img src="images/content/chanel.webp" alt="brend logo">
+                </a>
+              </li>
+              <li class="top-list__item">
+                <a class="top-list__link" href="#">
+                  <img src="images/content/burbery.webp" alt="brend logo">
+                </a>
+              </li>
+              <li class="top-list__item">
+                <a class="top-list__link" href="#">
+                  <img src="images/content/dior.webp" alt="brend logo">
+                </a>
+              </li>
+              <li class="top-list__item">
+                <a class="top-list__link" href="#">
+                  <img src="images/content/fendy.webp" alt="brend logo">
+                </a>
+              </li>
+              <li class="top-list__item">
+                <a class="top-list__link" href="#">
+                  <img src="images/content/versace.webp" alt="brend logo">
+                </a>
+              </li>
+              <li class="top-list__item">
+                <a class="top-list__link" href="#">
+                  <img src="images/content/gucchi.webp" alt="brend logo">
+                </a>
+              </li>
+              <li class="top-list__item">
+                <a class="top-list__link" href="#">
+                  <img src="images/content/fendy.webp" alt="brend logo">
+                </a>
+              </li>
+              <li class="top-list__item">
+                <a class="top-list__link" href="#">
+                  <img src="images/content/armani.webp" alt="brend logo">
+                </a>
+              </li>
+            </ul>
+          </fieldset>
+          <ul class="choice-brand__bottom galery-offer">
+            <li class="galery-offer__item">
+              <a class="galery-offer__limk" href="#" style="background-image: url(images/content/girl-in-hat.webp)">
+              </a>
+              <div class="galery-offer__content">
+                <h2 class="galery-offer__title">choosе your look</h2>
+                <div class="galery-offer__text">See our clothing collections</div>
+                <a class="galery-offer__button" href="#">see offers</a>
+              </div>
+            </li>
+            <li class="galery-offer__item">
+              <a class="galery-offer__limk galery-offer__limk--position" href="#"
+                style="background-image: url(images/content/black-girl.webp)">
+              </a>
+              <div class="galery-offer__content">
+                <h2 class="galery-offer__title galery-offer__title--big">Up to 40% off</h2>
+                <div class="galery-offer__text">Special offers and great deals</div>
+                <a class="galery-offer__button" href="#">shop now</a>
+              </div>
+            </li>
+            <li class="galery-offer__item">
+              <a class="galery-offer__limk" href="#" style="background-image: url(images/content/pink-girl.webp)">
+              </a>
+              <div class="galery-offer__content">
+                <h2 class="galery-offer__title">brand new style</h2>
+                <div class="galery-offer__text">Popular clothing brands</div>
+                <a class="galery-offer__button" href="#">see offers</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section> -->
+
+      <section class="main__section shop">
+        <div class="shop__container">
+          <div class="shop__inner">
+            <div class="shop__filter preference">
+              <h2 class="preference__title title">shop some wear:</h2>
+              <form class="preference__form form-filter" action="https://jsonplaceholder.typicode.com/posts"
+                method="post">
+                <ul class="form-filter__items">
+                  <li class="form-filter__item">
+                    <label class="form-filter__label">
+                      <input class="form-filter__input" type="checkbox" value="sellers" name="sellers">
+                      <span class="form-filter__icon"></span>
+                      Best sellers</label>
+                  </li>
+                  <li class="form-filter__item">
+                    <label class="form-filter__label">
+                      <input class="form-filter__input" type="checkbox" value="sellers" name="sellers">
+                      <span class="form-filter__icon"></span>
+                      new arivals</label>
+                  </li>
+                  <li class="form-filter__item">
+                    <label class="form-filter__label">
+                      <input class="form-filter__input" type="checkbox" value="sellers" name="sellers" checked>
+                      <span class="form-filter__icon"></span>
+                      TOP women</label>
+                  </li>
+                  <li class="form-filter__item">
+                    <label class="form-filter__label">
+                      <input class="form-filter__input" type="checkbox" value="sellers" name="sellers">
+                      <span class="form-filter__icon"></span>
+                      Collection: Summer</label>
+                  </li>
+                  <li class="form-filter__item">
+                    <label class="form-filter__label">
+                      <input class="form-filter__input" type="checkbox" value="sellers" name="sellers">
+                      <span class="form-filter__icon"></span>
+                      Collection: spring</label>
+                  </li>
+                  <li class="form-filter__item">
+                    <label class="form-filter__label">
+                      <input class="form-filter__input" type="checkbox" value="sellers" name="sellers">
+                      <span class="form-filter__icon"></span>
+                      TREnding</label>
+                  </li>
+                </ul>
+              </form>
+            </div>
+            <div class="shop__product catalog">
+              <ul class="catalog__items">
+                <li class="catalog__item">
+                  <article class="catalog__cart cart-dress">
+                    <a class="cart-dress__link" href="#">
+                      <img class="cart-dress__picture" src="images/content/mediterranean.webp" alt="">
+                    </a>
+                    <div class="cart-dress__box">
+                      <h3 class="cart-dress__title">top women</h3>
+                      <div class="cart-dress__text">Angels malu zip jeans slim black used</div>
+                      <div class="cart-dress__price">
+                        <span class="cart-dress__offer">139,00 eur</span>
+                        <!-- <span class="cart-dress__acent">119 eur</span> -->
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="catalog__cart cart-dress">
+                    <a class="cart-dress__link" href="#">
+                      <img class="cart-dress__picture" src="images/content/spring-dress.webp" alt="spring-dress">
+                    </a>
+                    <div class="cart-dress__box">
+                      <h3 class="cart-dress__title">top women</h3>
+                      <div class="cart-dress__text"> Angels malu zip jeans slim black used</div>
+                      <div class="cart-dress__price">
+                        <span class="cart-dress__offer">235,00 eur</span>
+                        <!-- <span class="cart-dress__acent">119 eur</span> -->
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="catalog__cart cart-dress">
+                    <a class="cart-dress__link" href="#">
+                      <img class="cart-dress__picture" src="images/content/black-flovers-dress.webp"
+                        alt="black-flovers-dress">
+                    </a>
+                    <div class="cart-dress__box">
+                      <h3 class="cart-dress__title">top women</h3>
+                      <div class="cart-dress__text">Angels malu zip jeans slim black used</div>
+                      <div class="cart-dress__price">
+                        <span class="cart-dress__offer">90,00 eur</span>
+                        <!-- <span class="cart-dress__acent">119 eur</span> -->
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="catalog__cart cart-dress">
+                    <a class="cart-dress__link" href="#">
+                      <img class="cart-dress__picture" src="images/content/mediterranean.webp" alt="">
+                    </a>
+                    <div class="cart-dress__box">
+                      <h3 class="cart-dress__title">top women</h3>
+                      <div class="cart-dress__text">Angels malu zip jeans slim black used</div>
+                      <div class="cart-dress__price">
+                        <span class="cart-dress__offer acent">139,00 eur</span>
+                        <!-- <span class="cart-dress__acent">119 eur</span> -->
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="catalog__cart cart-dress">
+                    <a class="cart-dress__link" href="#">
+                      <img class="cart-dress__picture" src="images/content/red-dress.webp" alt="red-dress">
+                    </a>
+                    <div class="cart-dress__box">
+                      <h3 class="cart-dress__title">top women</h3>
+                      <div class="cart-dress__text">Angels malu zip jeans slim black used</div>
+                      <div class="cart-dress__price">
+                        <span class="cart-dress__offer">139,00 eur</span>
+                        <!-- <span class="cart-dress__acent">119 eur</span> -->
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="catalog__cart cart-dress">
+                    <a class="cart-dress__link" href="#">
+                      <img class="cart-dress__picture" src="images/content/disco-dress.webp" alt="black-dress">
+                    </a>
+                    <div class="cart-dress__box">
+                      <h3 class="cart-dress__title">top women</h3>
+                      <div class="cart-dress__text">Angels malu zip jeans slim black used</div>
+                      <div class="cart-dress__price">
+                        <span class="cart-dress__offer acent">139, 00 eur</span>
+                        <!-- <span class="cart-dress__acent">119 eur</span> -->
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="catalog__cart cart-dress">
+                    <a class="cart-dress__link" href="#">
+                      <img class="cart-dress__picture" src="images/content/spring-dress.webp" alt="spring-dress">
+                    </a>
+                    <div class="cart-dress__box">
+                      <h3 class="cart-dress__title">top women</h3>
+                      <div class="cart-dress__text">Angels malu zip jeans slim black used</div>
+                      <div class="cart-dress__price">
+                        <span class="cart-dress__offer">139,00 eur</span>
+                        <!-- <span class="cart-dress__acent">119 eur</span> -->
+                      </div>
+                    </div>
+                  </article>
+                </li>
+                <li class="catalog__item">
+                  <article class="catalog__cart cart-dress">
+                    <a class="cart-dress__link" href="#">
+                      <img class="cart-dress__picture" src="images/content/point-dress.webp" alt="black-dress">
+                    </a>
+                    <div class="cart-dress__box">
+                      <h3 class="cart-dress__title">top women</h3>
+                      <div class="cart-dress__text">Angels malu zip jeans slim black used</div>
+                      <div class="cart-dress__price">
+                        <span class="cart-dress__offer">139,00 eur</span>
+                        <!-- <span class="cart-dress__acent">119 eur</span> -->
+                      </div>
+                    </div>
+                  </article>
+                </li>
+
+              </ul>
+              <div class="catalog__see-more">
+                <a class="catalog__button" href="#">load more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section proposition">
+        <div class="proposition__container">
+          <div class="proposition__top-baner">
+            <img src="images/content/baner-top.webp" alt="">
+            <div class="proposition__box proposition__box--center content-baner">
+              <h2 class="content-baner__title">shoping without limits.</h2>
+              <p>
+                Choose the best option for you, and it does not matter whether you are
+                <span class="content-baner__hiden">
+                  in Prague or San
+                  Francisco. We will deliver your purchase anywhere!
+                </span>
+              </p>
+              <a class="content-baner__link" href="#">shop now</a>
+            </div>
+          </div>
+
+          <div class="proposition__featured featured-block">
+            <h2 class="featured-block__title title">Featured Items:</h2>
+            <ul class="featured-block__items">
+              <li class="featured-block__item">
+                <article class="featured-block__cart cart-dress">
+                  <a class="cart-dress__link" href="#">
+                    <img class="cart-dress__picture" src="images/content/point-dress.webp" alt="">
+                  </a>
+                  <div class="cart-dress__box">
+                    <h3 class="cart-dress__title">top women</h3>
+                    <div class="cart-dress__text">Angels malu zip jeans slim black used</div>
+                    <div class="cart-dress__price">
+                      <span class="cart-dress__offer">139,00 eur</span>
+                      <!-- <span class="cart-dress__acent">119 eur</span> -->
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="featured-block__item">
+                <article class="featured-block__cart cart-dress">
+                  <a class="cart-dress__link" href="#">
+                    <img class="cart-dress__picture" src="images/content/spring-dress.webp" alt="">
+                  </a>
+                  <div class="cart-dress__box">
+                    <h3 class="cart-dress__title">top women</h3>
+                    <div class="cart-dress__text">Angels malu zip jeans slim black used</div>
+                    <div class="cart-dress__price">
+                      <span class="cart-dress__offer">139,00 eur</span>
+                      <!-- <span class="cart-dress__acent">119 eur</span> -->
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="featured-block__item">
+                <article class="featured-block__cart cart-dress">
+                  <a class="cart-dress__link" href="#">
+                    <img class="cart-dress__picture" src="images/content/disco-dress.webp" alt="">
+                  </a>
+                  <div class="cart-dress__box">
+                    <h3 class="cart-dress__title">top women</h3>
+                    <div class="cart-dress__text">Angels malu zip jeans slim black used</div>
+                    <div class="cart-dress__price">
+                      <span class="cart-dress__offer">139,00 eur</span>
+                      <!-- <span class="cart-dress__acent">119 eur</span> -->
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="featured-block__item">
+                <article class="featured-block__cart cart-dress">
+                  <a class="cart-dress__link" href="#">
+                    <img class="cart-dress__picture" src="images/content/mediterranean.webp" alt="">
+                  </a>
+                  <div class="cart-dress__box">
+                    <h3 class="cart-dress__title">top women</h3>
+                    <div class="cart-dress__text">Angels malu zip jeans slim black used</div>
+                    <div class="cart-dress__price">
+                      <span class="cart-dress__offer">139,00 eur</span>
+                      <!-- <span class="cart-dress__acent">119 eur</span> -->
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="featured-block__item">
+                <article class="featured-block__cart cart-dress">
+                  <a class="cart-dress__link" href="#">
+                    <img class="cart-dress__picture" src="images/content/point-dress.webp" alt="">
+                  </a>
+                  <div class="cart-dress__box">
+                    <h3 class="cart-dress__title">top women</h3>
+                    <div class="cart-dress__text">Angels malu zip jeans slim black used</div>
+                    <div class="cart-dress__price">
+                      <span class="cart-dress__offer">139,00 eur</span>
+                      <!-- <span class="cart-dress__acent">119 eur</span> -->
+                    </div>
+                  </div>
+                </article>
+              </li>
+            </ul>
+            <div class="catalog__see-more">
+              <a class="catalog__button" href="#">load more</a>
+            </div>
+          </div>
+
+          <div class="proposition__popular popular-block">
+            <h2 class="popular-block__title title">Most Popular:</h2>
+            <ul class="popular-block__items">
+              <li class="popular-block__item">
+                <article class="popular-block__cart cart-dress">
+                  <a class="cart-dress__link" href="#">
+                    <img class="cart-dress__picture" src="images/content/red-dress.webp" alt="">
+                  </a>
+                  <div class="cart-dress__box">
+                    <h3 class="cart-dress__title">top women</h3>
+                    <div class="cart-dress__text">Angels malu zip jeans slim black used</div>
+                    <div class="cart-dress__price">
+                      <span class="cart-dress__offer">139,00 eur</span>
+                      <!-- <span class="cart-dress__acent">119 eur</span> -->
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="popular-block__item">
+                <article class="popular-block__cart cart-dress">
+                  <a class="cart-dress__link" href="#">
+                    <img class="cart-dress__picture" src="images/content/point-dress.webp" alt="">
+                  </a>
+                  <div class="cart-dress__box">
+                    <h3 class="cart-dress__title">top women</h3>
+                    <div class="cart-dress__text">Angels malu zip jeans slim black used</div>
+                    <div class="cart-dress__price">
+                      <span class="cart-dress__offer">139,00 eur</span>
+                      <!-- <span class="cart-dress__acent">119 eur</span> -->
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="popular-block__item">
+                <article class="popular-block__cart cart-dress">
+                  <a class="cart-dress__link" href="#">
+                    <img class="cart-dress__picture" src="images/content/spring-dress.webp" alt="">
+                  </a>
+                  <div class="cart-dress__box">
+                    <h3 class="cart-dress__title">top women</h3>
+                    <div class="cart-dress__text">Angels malu zip jeans slim black used</div>
+                    <div class="cart-dress__price">
+                      <span class="cart-dress__offer">139,00 eur</span>
+                      <!-- <span class="cart-dress__acent">119 eur</span> -->
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="popular-block__item">
+                <article class="popular-block__cart cart-dress">
+                  <a class="cart-dress__link" href="#">
+                    <img class="cart-dress__picture" src="images/content/black-flovers-dress.webp" alt="">
+                  </a>
+                  <div class="cart-dress__box">
+                    <h3 class="cart-dress__title">top women</h3>
+                    <div class="cart-dress__text">Angels malu zip jeans slim black used</div>
+                    <div class="cart-dress__price">
+                      <span class="cart-dress__offer">139,00 eur</span>
+                      <!-- <span class="cart-dress__acent">119 eur</span> -->
+                    </div>
+                  </div>
+                </article>
+              </li>
+              <li class="popular-block__item">
+                <article class="popular-block__cart cart-dress">
+                  <a class="cart-dress__link" href="#">
+                    <img class="cart-dress__picture" src="images/content/point-dress.webp" alt="">
+                  </a>
+                  <div class="cart-dress__box">
+                    <h3 class="cart-dress__title">top women</h3>
+                    <div class="cart-dress__text">Angels malu zip jeans slim black used</div>
+                    <div class="cart-dress__price">
+                      <span class="cart-dress__offer">139,00 eur</span>
+                      <!-- <span class="cart-dress__acent">119 eur</span> -->
+                    </div>
+                  </div>
+                </article>
+              </li>
+            </ul>
+          </div>
+
+          <div class="proposition__bottom-baner">
+            <img src="images/content/sea-woman.webp" alt="">
+            <div class="proposition__box content-baner">
+              <h2 class="content-baner__title">EXPLORE THE BEST OF YOU.</h2>
+              <p>
+                You can choose the best option for you, and it does not matter whether you are in Prague or San
+                Francisco.
+              </p>
+              <a class="content-baner__link" href="#">shop now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section blog">
+        <div class="blog__container">
+          <h2 class="blog__title title">Blog</h2>
+          <ul class="blog__lists item-blog">
+            <li class="item-blog__item">
+              <h2 class="item-blog__title">Article</h2>
+              <h3 class="item-blog__subtitle">Exactly What To Wear To Every Type Of Wedding This Summer</h3>
+              <div class="item-blog__text">
+                <p>
+                  A large part of the business here is building up the "experience". Double-page spreads in magazines.
+                  Ads on TV. Product placement and sponsorship in golf tournaments, tennis matches and sailing
+                  competitions. All of this builds up your perception of the brand - and additionally, it costs money.
+                </p>
+              </div>
+              <div class="blog__data">21 January 2018 by guido</div>
+            </li>
+            <li class="item-blog__item">
+              <h2 class="item-blog__title">tips</h2>
+              <h3 class="item-blog__subtitle">Exactly What To Wear To Every Type Of Wedding This Summer</h3>
+              <div class="item-blog__text">
+                <p>
+                  When selling 70% fewer shirts, however, there are fewer shirts on the market, making it more
+                  exclusive, and therefore worth the money, for those to whom it matters.
+                </p>
+              </div>
+              <div class="blog__data">21 January 2018 by guido</div>
+            </li>
+            <li class="item-blog__item">
+              <h2 class="item-blog__title">Article</h2>
+              <h3 class="item-blog__subtitle">Exactly What To Wear To Every Type Of Wedding This Summer</h3>
+              <div class="item-blog__text">
+                <p>
+                  A large part of the business here is building up the "experience". Double-page spreads in magazines.
+                  Ads on TV. Product placement and sponsorship in golf tournaments, tennis matches and sailing
+                  competitions. All of this builds up your perception of the brand - and additionally, it costs money.
+                </p>
+              </div>
+              <div class="blog__data">21 January 2018 by guido</div>
+            </li>
+            <li class="item-blog__item">
+              <h2 class="item-blog__title">tips</h2>
+              <h3 class="item-blog__subtitle">Exactly What To Wear To Every Type Of Wedding This Summer</h3>
+              <div class="item-blog__text">
+                <p>
+                  When selling 70% fewer shirts, however, there are fewer shirts on the market, making it more
+                  exclusive, and therefore worth the money, for those to whom it matters.
+                </p>
+              </div>
+              <div class="blog__data">21 January 2018 by guido</div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container">
+        <nav class="footer__inner">
+          <a class="footer__logo logo" href="#">
+            <img class="logo__image" src="images/content/logo.webp" alt="logo">
+          </a>
+        </nav>
+      </div>
+    </footer>
+
+  </div>
+</body>
+
+</html>
