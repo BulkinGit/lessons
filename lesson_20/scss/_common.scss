@@ -25,6 +25,22 @@
   text-transform: capitalize;
 }
 
+.button {
+  text-align: center;
+
+  &__catalog {
+    display: block;
+    padding: 10px 34px;
+    font-size: 12px;
+    font-weight: 500;
+    color: $gray400;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border: 2px solid $gray100;
+    transition: all 0.3s;
+  }
+}
+
 .acent {
   display: flex;
   align-items: center;
@@ -46,6 +62,15 @@
 
 
 @media (min-width: 576px) {
+
+  .button {
+  text-align: center;
+
+  &__catalog {
+    display: inline-block;
+  }
+}
+
   .acent {
     &::after {
       font-size: 10px;
@@ -82,4 +107,26 @@
 
     }
   }
+}
+
+@media (any-hover:hover) {
+  .button {
+
+  &__catalog {
+
+    &:hover {
+      color: $white;
+      background-color: $black;
+      border: 2px solid $black;
+    }
+    // display: block;
+    // padding: 10px 34px;
+    // font-size: 12px;
+    // font-weight: 500;
+    // color: $gray400;
+    // letter-spacing: 0.5px;
+    // text-transform: uppercase;
+    // border: 2px solid $gray100;
+  }
+}
 }

@@ -498,21 +498,6 @@ body {
         }
       }
     }
-
-    &__see-more {
-      text-align: center;
-    }
-
-    &__button {
-      display: block;
-      padding: 10px 34px;
-      font-size: 12px;
-      font-weight: 500;
-      color: $gray400;
-      letter-spacing: 0.5px;
-      text-transform: uppercase;
-      border: 2px solid $gray100;
-    }
 }
 
 .cart-dress {
@@ -585,7 +570,7 @@ body {
   .catalog {
 
     &__button {
-      display: inline-block;
+      // display: inline-block;
     }
   }
 
@@ -711,6 +696,17 @@ body {
 
     &__icon {
       margin-left: -19px;
+		}
+  }
+
+
+  .catalog {
+      
+      &__items {
+      
+        &:not(:last-child) {
+          margin-bottom: 60px;
+        }
 		}
   }
 
@@ -1195,6 +1191,10 @@ body {
 
 }
 
+@media (any-hover:hover) {
+  
+}
+
 
 // ========================blog
 
@@ -1387,3 +1387,5 @@ body {
     }
   }
 }
+
+
