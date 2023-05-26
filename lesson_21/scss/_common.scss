@@ -1,0 +1,118 @@
+@use "sass:math";
+@import "_mixins";
+
+
+.title {
+  font-weight: 700;
+  font-size: rem(25);
+  color: $gray400;
+  transition: color 0.3s;
+}
+
+.sub-title {
+  font-weight: 500;
+  font-size: rem(16);
+  line-height: 1.56;
+  color: $gray;
+}
+
+.title--medium {
+  font-weight: 500;
+}
+
+.title--white, 
+.sub-title--white {
+  color: $white100;
+}
+
+
+.menu-brger {
+  display: none;
+}
+
+
+@media (max-width: em(660)) {
+
+  .navigation {
+    &__body {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      left: -100%;
+      bottom: 0;
+      overflow: auto;
+      padding: rem(100) rem(20) rem(50) rem(20);
+      background-color: $gray400;
+      transition: left 0.3s;
+
+      &::before {
+        position: fixed;
+        content: " ";
+        height: rem(97);
+        width: 100%;
+        top: 0;
+        left: -100%;
+        z-index: 1;
+        background-color: $gray400;
+        transition: left 0.3s;
+      }
+    }
+  }
+
+  .menu-open {
+    & .navigation__body,
+    & .navigation__body::before {
+      left: 0;
+    }
+  }
+
+
+  .menu-burger {
+    position: relative;
+    display: block;
+    flex: 0 0 rem(30);
+    height: rem(18);
+
+    &::before,
+    &::after,
+    & span {
+      content: " ";
+      position: absolute;
+      left: 0;
+      height: 1px;
+      width: 100%;
+      background-color: $white100;
+      transition: all 0.3s;
+    }
+
+    &::before {
+      top: 0;
+    }
+
+    &::after{
+      bottom: 0;
+    }
+
+    & span {
+
+    }
+  }
+
+  .menu-open {
+    & .menu-burger span {
+      width: 0;
+      left: 50%;
+    }
+
+    & .menu-burger::before {
+      transform: rotate(45deg);
+      top: 50%;
+    }
+
+    & .menu-burger::after {
+      transform: rotate(-45deg);
+      top: 50%;
+    }
+  }
+}
+
